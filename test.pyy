@@ -1,7 +1,5 @@
-
-def count_words(sentence):
-    words = sentence.split()
-    return len(words)
-
-user_input = input("Please enter a sentence: ")
-print("Number of words:", count_words(user_input))
+bill = input("Bill please.")
+tip = input("How much would you like to tip?")
+bill = float(bill)
+tip = int(tip)
+print (f"Your total is {bill + tip}")
