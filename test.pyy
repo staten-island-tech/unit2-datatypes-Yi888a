@@ -1,5 +1,0 @@
-bill = input("Bill please.")
-tip = input("How much would you like to tip?")
-bill = float(bill)
-tip = int(tip)
-print (f"Your total is {bill + tip}")
