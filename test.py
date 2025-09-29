@@ -20,13 +20,23 @@
    # tip = 0
 #print(f"Your tip is {tip}, and your total is {bill + tip}")
 
-#import math
-#def gcf(a, b):
-    #return math.gcd(a, b)
-#user_input = input("input two numbers, separated by a comma. ")
-#num1 = int(user_input.split(",")[0])
-#num2 = int(user_input.split(",")[1])
-#print(gcf(num1, num2))
+#def gcf():
+    #list1 = []
+   # list2 = []
+    #gcf_list = []
+    #number1 = int(input("What is your first number? "))
+   # number2 = int(input("What is your second number? "))
+   # for i in range(1, number1 + 1):
+      #  if number1 % i == 0:
+    #        list1.append(i)
+   # for j in range(1, number2 + 1):
+    #    if number2 % j == 0:
+    #        list2.append(j)
+    #for k in list1:
+     #   if k in list2:
+    #        gcf_list.append(k)
+   # print(max(gcf_list))
+#gcf()
 
 #def factor():
     #factors = []
@@ -45,16 +55,3 @@
   #  else:
        # print("Odd")
 #odd_even()
-
-def guess_number():
-    import random
-    number = random.randint(1, 10)
-    guess = int(input("Guess a number between 1 and 10. "))
-    while guess != number:
-        if guess < number:
-            print("Too low.")
-        else:
-            print("Too high.")
-        guess = int(input("Guess again. "))
-    print("Correct!")
-guess_number()
